@@ -35,13 +35,13 @@ const Productos = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {productos.length === 0 ? 'No hay productos' : 
+                    {productos.length > 0 ? 
                     (productos.map(producto =>(
                         <Producto 
                             key={producto.id} 
                             producto={producto}
                         />))
-                    )}
+                    ) : <tr><td>No hay productos</td></tr> }
                 </tbody>
             </table>
         </Fragment>
