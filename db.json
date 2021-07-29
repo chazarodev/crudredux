@@ -1,24 +1,34 @@
 {
   "productos": [
     {
-      "id": 2,
-      "nombre": "Jugo de Naranja",
-      "precio": "1"
-    },
-    {
-      "nombre": "Rib Eye 800g",
-      "precio": "200",
-      "id": 4
-    },
-    {
-      "nombre": "Rib Eye 1kg",
+      "nombre": "Rib Eye 2kg",
       "precio": 670,
       "id": 7
     },
     {
       "nombre": "Jugo de Arandano",
-      "precio": 21,
+      "precio": "30",
       "id": 8
+    },
+    {
+      "nombre": "Pierna Española",
+      "precio": 235,
+      "id": 9
+    },
+    {
+      "nombre": "Jamón Serrano",
+      "precio": 345,
+      "id": 10
+    },
+    {
+      "nombre": "Salmón",
+      "precio": 500,
+      "id": 11
+    },
+    {
+      "nombre": "Langosta",
+      "precio": 990,
+      "id": 12
     }
   ]
 }

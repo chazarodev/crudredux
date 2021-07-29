@@ -52,7 +52,7 @@ const EditarProducto = () => {
                                     type="text" 
                                     className="form-control"
                                     placeholder="Nombre Producto"
-                                    name="Nombre" 
+                                    name="nombre" 
                                     value={nombre}
                                     onChange={onChangeFormulario}
                                 />
@@ -63,7 +63,7 @@ const EditarProducto = () => {
                                     type="number" 
                                     className="form-control"
                                     placeholder="Precio Producto"
-                                    name="Precio"
+                                    name="precio"
                                     value={precio}
                                     onChange={onChangeFormulario}
                                 />
